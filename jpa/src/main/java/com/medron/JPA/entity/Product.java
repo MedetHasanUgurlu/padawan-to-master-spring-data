@@ -1,11 +1,10 @@
-package com.medron.JPA.entity;
+package com.medron.jpa.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 
 @Entity
 @AllArgsConstructor

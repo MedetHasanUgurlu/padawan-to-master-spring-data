@@ -25,3 +25,11 @@ findOne(ID) ------>     find()
 </div>
 
 ![img_2.png](img_2.png)
+
+
+### JPA METHODS
+#### save
+> **S save(S entity)** \
+Saving entity can be performed using save from CrudRepository.\
+It persist or merge.\
+If entity has not been persisted Spring Data JPA call entityManager.persist() otherwise call entityManager.merge().
