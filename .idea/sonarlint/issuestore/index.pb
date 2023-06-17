@@ -33,3 +33,11 @@ G.idea/sonarlint/issuestore/4/2/42ce15799f9b9e37e1a67eecead9331d07aa551d,a\0\a0
 Q.idea/sonarlint/securityhotspotstore/a/0/a01d83d67102d6d1f9144f06ddf02ad6cb617fa1,c\d\cd7239f5bbabd151ac27a43f8612556c1e3782d0
 
 Q.idea/sonarlint/securityhotspotstore/a/6/a65f2a774fe2e3cac97766c45acf3937303996a4,7\f\7f091af277020be7e93f9e55993d6506260429b5
+>
+jpa/.gitignore,0\e\0eac1f95dd44f5cd0a4159e42331bfe19be73c2f
+Y
+)jpa/.mvn/wrapper/maven-wrapper.properties,2\2\22b91998da1fd36619db5905e26f307def726895
+8
+jpa/mvnw,e\6\e622248800c8f0dc5df0695c3fe47b41d31f3a42
+<
+jpa/mvnw.cmd,b\9\b99e8dc3e249f1f2a00ad1a9f8e1b1b363001395
