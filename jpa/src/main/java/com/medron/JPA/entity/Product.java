@@ -1,15 +1,14 @@
 package com.medron.jpa.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
+@ToString
+@Builder
 @Setter
 @Table(name = "products",uniqueConstraints = {@UniqueConstraint(name = "productName",columnNames = "name")})
 public class Product {
