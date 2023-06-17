@@ -15,3 +15,13 @@ delete(T)   ------>     remove(), merge(), contains()
 findOne(ID) ------>     find()
 
 * Spring Data JPA ---> JPA ---> HIBERNATE(JDBC) ----> DB
+
+## Generation Type
+**GenerationType.AUTO** = our default persistence provider which using hibernate, it selects based on database specific dialect. \
+**GenerationType.IDENTITY**= +1
+
+<div align="center">
+<img src="img.png">
+</div>
+
+![img_2.png](img_2.png)

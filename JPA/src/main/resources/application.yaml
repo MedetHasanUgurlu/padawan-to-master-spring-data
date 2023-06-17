@@ -1,0 +1,22 @@
+
+spring:
+  application:
+    name: jpa
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/masterdata
+    username: root
+    password: 1234
+
+  jpa:
+
+    show-sql: true
+
+    hibernate:
+      ddl-auto: create
+
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
