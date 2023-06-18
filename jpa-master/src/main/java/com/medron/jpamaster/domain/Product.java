@@ -1,4 +1,4 @@
-package com.medron.jpa.entity;
+package com.medron.jpamaster.domain;
 
 import jakarta.persistence.*;
 import lombok.*;

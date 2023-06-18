@@ -9,7 +9,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa-master/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/jpa/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" project-jdk-name="17" project-jdk-type="JavaSDK">
