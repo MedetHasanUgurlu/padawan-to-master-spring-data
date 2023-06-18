@@ -66,4 +66,15 @@ Sorting
     Sort sort = Sort.by("name").ascending();
     List<Product> sortedProducts = repository.findAll(sort);
 
+with multiple fields
+
+    Sort sortName = Sort.by("Name").descending();
+    Sort sortDescription = Sort.by("Description").ascending();
+    Sort multipleSort = sortName.and(sortDescription) 
+
+sort and pageable
+
+    Pageable pageable1 = PageRequest.of(0,5,sort);
+
+
 

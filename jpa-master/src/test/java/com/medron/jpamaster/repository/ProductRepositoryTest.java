@@ -25,6 +25,8 @@ class ProductRepositoryTest {
         Page<Product> page = repository.findAll(pageable);
         List<Product> products = page.getContent();
         products.forEach(System.out::println);
+
+        Pageable pageable1 = PageRequest.of(0,5,sort);
     }
 
 
