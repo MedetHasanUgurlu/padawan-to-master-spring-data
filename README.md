@@ -57,3 +57,13 @@ If entity has not been persisted Spring Data JPA call entityManager.persist() ot
 
 ## PAGINATION AND SORTING
 
+    Pageable pageable = PageRequest.of(0,5);
+    Page<Product> page = repository.findAll(pageable);
+    List<Product> products = page.getContent();
+
+Sorting
+
+    Sort sort = Sort.by("name").ascending();
+    List<Product> sortedProducts = repository.findAll(sort);
+
+
