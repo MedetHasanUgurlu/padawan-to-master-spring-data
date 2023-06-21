@@ -78,6 +78,15 @@ sort and pageable
 
 
 
+![img_4.png](img_4.png)
 
+**Default Lazy Type**
 
+FetchType.Eager = **Eager** means it will retrieve everything.\
+FetchType.Lazy = **Lazy** means it will retrieve on request or on demand.
+
+OneToMany: Lazy \
+ManyToMany: Eager \
+ManyToMany: Lazy \
+OneToOne: Eager
 

@@ -14,7 +14,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class OneToOneTests {
     @Autowired
     private InvoiceRepository repository;
+    @Autowired
     private AddressRepository addressRepository;
+
 
 
 
@@ -25,5 +27,13 @@ public class OneToOneTests {
         repository.save(invoice);
         log.info(invoice);
         assertThat(invoice).isNotNull();
+    }
+
+    @Test
+    public void biDirectionTest(){
+        Address address = Address.builder().street("Lotus").postalCode("34903").build();
+        Invoice invoice = Invoice.builder().name("Medet").address(address).price("1000").build();
+        repository.save(invoice);
+        log.info(addressRepository.findById(5).orElseThrow().toString());
     }
 }
