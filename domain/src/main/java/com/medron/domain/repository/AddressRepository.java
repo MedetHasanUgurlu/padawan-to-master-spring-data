@@ -1,6 +1,6 @@
-package com.medron.jpamaster.repository;
+package com.medron.domain.repository;
 
-import com.medron.jpamaster.domain.Address;
+import com.medron.domain.entity.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AddressRepository extends JpaRepository<Address,Integer> {

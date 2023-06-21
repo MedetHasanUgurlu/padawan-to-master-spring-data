@@ -15,8 +15,6 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String orderTrackingCode;
-    @OneToOne
-    @JoinColumn(name = "billing_address_id",referencedColumnName = "id")
-    private Address address;
+
 
 }

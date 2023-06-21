@@ -1,9 +1,7 @@
 package com.medron.jpamaster;
 
 
-import com.medron.jpamaster.domain.Address;
 import com.medron.jpamaster.domain.Order;
-import com.medron.jpamaster.repository.AddressRepository;
 import com.medron.jpamaster.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
