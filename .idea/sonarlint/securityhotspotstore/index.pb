@@ -1,6 +1,4 @@
 
-w
-Gjpa-master/src/main/java/com/medron/jpamaster/JpaMasterApplication.java,c\c\cc92a2f84668edb2317d48f9131c3bb894a17777
 `
 0jpa-master/.mvn/wrapper/maven-wrapper.properties,0\8\08f6c6e1b5a1cd3828731290d4ca8550fe719b62
 E
@@ -9,23 +7,13 @@ E
 jpa-master/mvnw,d\4\d401a14381a27744eb0d50f2081ee7037edd551d
 C
 jpa-master/mvnw.cmd,2\6\26dc72d77447aa754554418342df7ebf8fd42398
-B
-jpa-master/pom.xml,b\8\b8c4708294c81788b11495d33a9c42574dea8dd6
-q
-Ajpa-master/src/main/java/com/medron/jpamaster/domain/Product.java,9\9\99d3de2dd9689bbfbd62cd8047843bfcebbef653
+Q
+!padawan-to-master-spring-data.iml,4\2\42ce15799f9b9e37e1a67eecead9331d07aa551d
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 |
 Ljpa-master/src/test/java/com/medron/jpamaster/JpaMasterApplicationTests.java,a\1\a155969a38086b109d15099f4f8646183e6d08da
-z
-Jjpa-master/src/main/java/com/medron/jpamaster/business/ProductService.java,9\4\9468f07b305344a4b0dd48855ea74309e4df2421
-z
-Jjpa-master/src/main/java/com/medron/jpamaster/business/ProductManager.java,d\2\d2211c39c86645735c85c3872e80cec2b1c54b58
 
 Ojpa-master/src/main/java/com/medron/jpamaster/repository/ProductRepository.java,d\6\d6ee8d6145246c739087d27b5815b37df8c8c9e7
-l
-<jpa-master/src/main/java/com/medron/jpamaster/ReadyData.java,3\8\381cd1ae11861fa0dfa8d7dd25a859ce35d94ab6
-ƒ
-Sjpa-master/src/test/java/com/medron/jpamaster/repository/ProductRepositoryTest.java,8\8\88e8b62594a63b53d2e528e24c69d4deab42591f
-q
-Ajpa-master/src/main/java/com/medron/jpamaster/domain/Address.java,2\6\26550ff5fa370d56450e4ddb07e6e3ef2e4d8265
-o
-?jpa-master/src/main/java/com/medron/jpamaster/domain/Order.java,f\b\fb089d9699fea575a9fe076177f110d8f25ce4c7
+z
+Jjpa-master/src/main/java/com/medron/jpamaster/business/ProductService.java,9\4\9468f07b305344a4b0dd48855ea74309e4df2421

@@ -4,8 +4,15 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.*;
 
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@ToString
+@Builder
+@Setter
 public class Address {
 
     @Id
